@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="keywords" content="software, software development, portfolio, contact, intern">
+    <meta name="description" content="Contact page for software development student">
+    <meta charset="UTF-8">
+    <title>Contact-Flynn Huffman</title>
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
+
+    <style>
+        .contact-heading {
+            text-align: center;
+            font-size: 40px;
+            color: rgb(44, 62, 80);
+            margin-top: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-bottom: 2px solid rgb(200, 200, 200);
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body id="top">
+    <div>
+        <header>
+            <h1 class="contact-heading">Contact Me</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home page">Home</a></li>
+                <li><a href="Resume.html" title="Resume Page">Resume</a></li>
+                <li><a href="Contact.html" title="Contact me">Contact</a></li>
+                <li><a href="Projects.html" title ="Projects Page">Projects</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <article>
+                <h2>Contact Me</h2>
+
+                <p>Have a question or interested in my work?</p>
+                <p>Send a message</p>
+
+                <p><a href="mailto:frhuffman@students.ntc.edu">Email Me</a></p>
+                <p>Phone: 715-348-5670</p>
+
+                <form class="contact-form" id="contactForm"> 
+                    <fieldset> 
+                        <legend>Contact Me</legend> 
+
+                        <label for="name">Name:</label> 
+                        <input type="text" id="name" name="name"> 
+                        <span id="nameError"></span>
+                        
+                        <br><br>    
+                        
+                        <label for="email">Email:</label> 
+                        <input type="email" id="email" name="email">
+                        <span id="emailError"></span> 
+                        
+                        <br><br> 
+                        
+                        <label for="subject">Subject:</label> 
+                        <input type="text" id="subject" name="subject">
+                        <span id="subjectError"></span> 
+                        
+                        <br><br> 
+                        
+                        <label for="message">Message:</label> 
+                        <br> 
+                        <textarea id="message" name="message" rows="6"></textarea>
+                        <span id="messageError"></span>
+                        
+                        <br><br> 
+                        
+                        <input type="submit" value="Submit"> 
+                    </fieldset> 
+                </form>
+
+            </article>
+        </section>
+
+        <aside>
+            <h2>Availability</h2>
+            <p>I respond within 24-48 hours and can be reached by phone or email</p> 
+            <p><a href="https://www.linkedin.com/in/flynn-huffman-2bb0a4403/">Visit My LinkedIn</a></p>      
+        </aside>
+
+        <footer>
+            <address>
+                Flynn Huffman, 703 South 20th Street, Wausau, WI
+            </address>
+            <p>© 2026 Flynn Huffman. All Rights Reserved</p>
+            <p><a href="#top">To Top</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
